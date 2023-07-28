@@ -2,7 +2,7 @@
 USE units;
 -- Create table
 CREATE TABLE IF NOT EXISTS Customers(
-		customer_id INT AUTO_INCREMENT PRIMARY KEY,
+	customer_id INT AUTO_INCREMENT PRIMARY KEY,
         customer_name VARCHAR(50),
         age INT,
         gender VARCHAR(10)
@@ -13,7 +13,7 @@ ALTER TABLE Customers AUTO_INCREMENT = 1001;
 -- insert values into the table
 INSERT INTO Customers(customer_name, age, gender)
 VALUES  ('John Doe', 35, 'Male'),
-		('Jane Smith', 28, 'Female'),
+	('Jane Smith', 28, 'Female'),
         ('Mike Johnson', 40, 'Male'),
         ('Lisa Brown', 22, 'Female'),
         ('Mark Davis', 45, 'Male'),
@@ -21,7 +21,7 @@ VALUES  ('John Doe', 35, 'Male'),
         ('Chris Lee', 37, 'Male'),
         ('Sarah Clark', 29, 'Female');
 CREATE TABLE IF NOT EXISTS Sales(
-		sales_id INT AUTO_INCREMENT PRIMARY KEY,
+	sales_id INT AUTO_INCREMENT PRIMARY KEY,
         product_id INT,
         customer_id INT,
         sales_date DATE,
@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS Sales(
 
 INSERT INTO Sales(product_id, customer_id, sales_date, sale_amount)
 VALUES  (101, 1001, '2023-01-01', 200 ),
-		(102, 1002, '2023-01-02', 350),
+	(102, 1002, '2023-01-02', 350),
         (103, 1003, '2023-01-03', 120 ),
         (101, 1004, '2023-01-04', 180 ),
         (104, 1005, '2023-01-04', 400 ),
