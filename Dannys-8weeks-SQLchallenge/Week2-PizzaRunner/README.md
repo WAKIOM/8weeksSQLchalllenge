@@ -3,3 +3,4 @@
 - Everything you need to know to do the challenge can be found on [Danny's
 Website](https://8weeksqlchallenge.com/case-study-2/)
 - You can read on my blog how i went about it.
+[Blog-Documentation](https://codewise.hashnode.dev/8-weeks-sql-challenge-case-study-2)
